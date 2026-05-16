@@ -1,70 +1,34 @@
-\# 多模态电商智能导购Agent通用框架
+---
+title: 多模态电商智能导购Agent
+emoji: 🛒
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: "1.35.0"
+python_version: "3.10"
+app_file: main.py
+pinned: false
+---
 
-🚀 \*\*字节跳动2026 AI全栈挑战赛MVP项目\*\* | 已部署上线，点击即可体验
+# 多模态电商智能导购Agent
+基于RAG的多模态通用电商导购框架，支持文本问答、个性化推荐、商品对比和以图搜图。
 
+## 功能特性
+- ✅ 多模态检索：支持文本和图片混合查询
+- ✅ 多Agent协作：检索Agent、推荐Agent、对比Agent协同工作
+- ✅ 可插拔知识库：一键切换不同商品品类
+- ✅ 零代码部署：商家只需上传Excel表格即可生成专属导购
+- ✅ 24小时在线：自动回答所有商品咨询，提高转化率
 
+## 技术架构
+- 前端：Streamlit
+- 大模型：字节跳动豆包API
+- 向量数据库：ChromaDB
+- 嵌入模型：all-MiniLM-L6-v2
+- 图片检索：CLIP ViT-B/32
 
-\## ✨ 核心特色
-
-\- \*\*通用可插拔\*\*：数据与代码100%分离，替换JSON文件5分钟拥有专属导购
-
-\- \*\*多模态检索\*\*：支持文本、图片、图文混合查询
-
-\- \*\*多Agent协作\*\*：检索、推荐、对比三个专业Agent协同工作
-
-\- \*\*零代码部署\*\*：一键部署至Streamlit Cloud，获得公开访问链接
-
-
-
-\## 🛠️ 技术栈
-
-| 模块 | 技术选型 |
-
-|------|----------|
-
-| 界面与部署 | Streamlit 1.35 |
-
-| RAG框架 | LangChain 0.2 |
-
-| 向量数据库 | Chroma 0.5 |
-
-| 文本嵌入 | all-MiniLM-L6-v2 |
-
-| 多模态模型 | CLIP-vit-base-p32 |
-
-| 大语言模型 | 豆包API 4.0 |
-
-
-
-\## 🚀 快速开始
-
-\### 本地运行
-
-```bash
-
-\# 1. 克隆仓库
-
-git clone https://github.com/你的用户名/ecommerce-rag-agent-framework.git
-
-cd ecommerce-rag-agent-framework
-
-
-
-\# 2. 安装依赖
-
-pip install -r requirements.txt
-
-
-
-\# 3. 配置环境变量
-
-cp .env.example .env
-
-\# 编辑.env文件，填入你的豆包API密钥
-
-
-
-\# 4. 运行应用
-
-streamlit run main.py
-
+## 使用方法
+1. 选择左侧知识库切换商品品类
+2. 在对话框输入你的需求
+3. 支持上传图片进行以图搜图
+4. 支持多轮对话和商品对比
