@@ -1,0 +1,50 @@
+[
+  {
+    "id": "护肤品_1",
+    "name": "兰蔻小黑瓶精华肌底液 100ml",
+    "price": 1080,
+    "brand": "兰蔻",
+    "category": "护肤品",
+    "parameters": "品牌：兰蔻\n名称：小黑瓶精华肌底液\n价格：1080元\n容量：100ml\n适用肤质：所有肤质\n核心成分：二裂酵母发酵产物溶胞物",
+    "description": "兰蔻小黑瓶精华肌底液是品牌的明星产品，含高浓度二裂酵母发酵产物，能修护肌肤屏障、改善肤质。",
+    "reviews": [
+      "吸收很快不油腻，用了一段时间皮肤确实变好了",
+      "虽然价格贵但值得投资，一瓶能用2-3个月",
+      "配合其他护肤品使用效果更好"
+    ],
+    "image_url": "https://picsum.photos/400/400?random=10",
+    "product_url": "https://www.lancome.com.cn"
+  },
+  {
+    "id": "护肤品_2",
+    "name": "雅诗兰黛特润修护肌透精华露 50ml 第六代",
+    "price": 900,
+    "brand": "雅诗兰黛",
+    "category": "护肤品",
+    "parameters": "品牌：雅诗兰黛\n名称：特润修护肌透精华露\n价格：900元\n容量：50ml\n适用肤质：所有肤质\n核心成分：三肽-32、二裂酵母",
+    "description": "雅诗兰黛小棕瓶第六代精华，经典修护抗老产品，具有抗氧化、保湿、修护多重功效。",
+    "reviews": [
+      "经典款不会出错的选择，维稳效果一流",
+      "质地温和不刺激，敏感肌也能放心用",
+      "坚持用了两瓶，细纹真的淡了很多"
+    ],
+    "image_url": "https://picsum.photos/400/400?random=11",
+    "product_url": "https://www.esteelauder.com.cn"
+  },
+  {
+    "id": "护肤品_3",
+    "name": "SK-II神仙水护肤精华液 230ml",
+    "price": 1599,
+    "brand": "SK-II",
+    "category": "护肤品",
+    "parameters": "品牌：SK-II\n名称：神仙水护肤精华液\n价格：1599元\n容量：230ml\n适用肤质：油性及混合性肌肤\n核心成分：Pitera™",
+    "description": "SK-II神仙水含有超过90%的独家成分Pitera™，能调节肌肤水油平衡、细化毛孔、改善肤质。",
+    "reviews": [
+      "用了半瓶脸真的变亮了，毛孔也细腻很多",
+      "口水味可以接受，效果确实明显",
+      "贵妇级护肤体验，虽然贵但值得"
+    ],
+    "image_url": "https://picsum.photos/400/400?random=12",
+    "product_url": "https://www.skii.com"
+  }
+]

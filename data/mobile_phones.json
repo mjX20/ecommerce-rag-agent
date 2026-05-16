@@ -1,0 +1,38 @@
+[
+  {
+    "id": "手机_1",
+    "name": "Apple iPhone 15 Pro Max 256GB 原色钛金属",
+    "price": 9999,
+    "brand": "Apple",
+    "category": "手机",
+    "parameters": "品牌：Apple\n名称：iPhone 15 Pro Max\n价格：9999元\n芯片：A17 Pro\n屏幕：6.7英寸OLED\n摄像头：4800万像素主摄",
+    "description": "Apple iPhone 15 Pro Max是苹果公司2023年旗舰智能手机，搭载A17 Pro芯片。",
+    "reviews": ["拍照效果惊艳", "系统流畅", "USB-C终于来了"],
+    "image_url": "https://picsum.photos/400/400?random=1",
+    "product_url": "https://www.apple.com/shop/buy-iphone/iphone-15-pro"
+  },
+  {
+    "id": "手机_2", 
+    "name": "华为 Mate 60 Pro+ 512MB 雅丹黑",
+    "price": 8999,
+    "brand": "华为",
+    "category": "手机",
+    "parameters": "品牌：华为\n名称：Mate 60 Pro+\n价格：8999元\n芯片：麒麟9000S\n卫星通话：支持",
+    "description": "华为Mate 60 Pro+搭载麒麟9000S芯片，支持卫星通话功能。",
+    "reviews": ["信号很强", "鸿蒙系统好用", "国货之光"],
+    "image_url": "https://picsum.photos/400/400?random=2",
+    "product_url": "https://consumer.huawei.com/cn/phones/mate60-pro/"
+  },
+  {
+    "id": "手机_3",
+    "name": "小米14 Ultra 16GB+512GB 黑色",
+    "price": 6499,
+    "brand": "小米",
+    "category": "手机",
+    "parameters": "品牌：小米\n名称：小米14 Ultra\n价格：6499元\n芯片：骁龙8 Gen3\n相机：徕卡四摄",
+    "description": "小米14 Ultra搭载骁龙8 Gen3处理器，徕卡影像系统。",
+    "reviews": ["徕卡色彩棒", "性价比高", "屏幕细腻"],
+    "image_url": "https://picsum.photos/400/400?random=3",
+    "product_url": "https://www.mi.com/xiaomi-14-ultra"
+  }
+]

@@ -1,0 +1,19 @@
+# 主题配置（和你现在的深色界面一致）
+[theme]
+base="dark"
+primaryColor="#FF4B4B"
+backgroundColor="#0E1117"
+secondaryBackgroundColor="#262730"
+textColor="#FAFAFA"
+font="sans serif"
+
+# 性能配置
+[server]
+maxUploadSize=200  # 最大上传200MB图片
+headless=true
+enableCORS=false
+enableXsrfProtection=false
+
+# 页面配置
+[browser]
+gatherUsageStats=false

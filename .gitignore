@@ -1,0 +1,27 @@
+# 虚拟环境
+venv/
+.env/
+.venv/
+
+# 模型缓存（绝对不要提交）
+models/
+
+# 向量数据库和图片特征
+vector_db/
+data/*.pkl
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 其他
+.DS_Store
+Thumbs.db
